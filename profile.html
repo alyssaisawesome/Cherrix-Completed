@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="profile.js"></script>
+  </head>
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a onclick="about()">About</a>
+      <a onclick="profile()">Profile</a>
+      <a onclick="articles()">Articles</a>
+      <a onclick="projects()">Projects</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <center>
+    <h2>Profile</h2>
+
+      <textarea placeholder="About you..." style="height: 200px; width:400px;"></textarea>
+      <br>
+      <button onclick="logout()">Logout</button>
+    </center>
+      <br>
+    
+  </body>
+</html>

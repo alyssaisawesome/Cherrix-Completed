@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Articles</title>
+    <link rel="stylesheet" type="text/css" href="news.css"></link>
+    <script src="news.js"></script>
+  </head>
+  <body>
+    <br>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+    <h2 style="float:right; margin-right:855px; font-size:40px; margin-top:0px;">Articles</h2>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a onclick="about()">About</a>
+      <a onclick="profile()">Profile</a>
+      <a onclick="articles()">Articles</a>
+      <a onclick="projects()">Projects</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="articles">
+      <button id="articleone_antarctica"  class="articlesdesign" onclick="article_antarctica()">
+        <p style="font-style: italic;">#1 on trending</p>
+        <image src="antarctica.jpg" style="border-radius:10px; margin-left:3px; height:200px; width: 300px;"></image>
+        <br>
+        <h2 id="titleone">Antarctica is melting</h2>
+      </button>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <button id="articletwo_covid" class="articlesdesign" onclick="article_covid()">
+        <p style="font-style: italic;">#2 on trending</p>
+        <image src="coronavirus-2.jpg" style="border-radius:10px; margin-left:3px; height:200px; width: 300px;"></image>
+        <br>
+        <h2 id="titleone">Covid-19</h2>
+      </button>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <button id="articletwo_poverty" class="articlesdesign" onclick="article_poverty()">
+        <p style="font-style: italic;">#3 on trending</p>
+        <image src="unnamed.jpg" style="border-radius:10px; margin-left:3px; height:200px; width: 300px;"></image>
+        <br>
+        <h2 id="titleone">Poverty in Afghanistan</h2>
+      </button>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <button id="articletwo_flooding" class="articlesdesign" onclick="article_flooding()">
+        <p style="font-style: italic;">#4 on trending</p>
+        <image src="canada-flooding.jpg" style="border-radius:10px; margin-left:3px; height:200px; width: 300px;"></image>
+        <br>
+        <h2 id="titleone">Flooding in Canada</h2>
+      </button>
+
+      &nbsp;
+      &nbsp;
+      &nbsp;
+
+      <button id="articletwo_lgbtq" class="articlesdesign" onclick="article_lgbtq()">
+        <p style="font-style: italic;">#5 on trending</p>
+        <image src="lgbtd.png" style="border-radius:10px; margin-left:3px; height:200px; width: 300px;"></image>
+        <br>
+        <h2 id="titleone">What is LGBTQ+?</h2>
+      </button>
+      </div>
+<br>
+<br>
+<br>
+<br>
+<center>
+    <div id="articleshow" style="display: none;">
+      <p id="ntrendingarticle" style="font-style:italic;"></p>
+      <h2 id="titlearticle"></h2>
+      <br>
+      <img id="imagearticle" style="border-radius:10px; margin-left:3px; height:400px; width: 600px;">
+      <br>
+      <h3 id="articlecontent"></h3>
+      <br>
+      <button id="back" onclick="backtomain()" style="border-radius: 10px; font-size:20px; padding:5px;
+      padding-left:20px; padding-right:20px; background-color:rgb(0, 0, 0); color:white;">Back to articles</button>
+   </div>
+</center>
+ 
+
+    <br>
+    <br>
+    <br>
+ <center>
+    <button onclick="new_article()" id="newarticlebutton" style="border-radius: 10px; font-size:20px; padding:5px;
+    padding-left:20px; padding-right:20px; background-color:rgb(0, 0, 0); color:white;">Make your own Cherrix article</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+          <h2 id="yourarticles">Your Articles</h2>
+  </center>
+</div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.color_white {
+  color: white;
+}
+#login_button {
+  background-color: rgb(153, 21, 230);
+  border: none;
+  border-radius: 10px;
+  padding:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:15px;
+  color:white;
+}
+#errormsg {
+  color: white;
+  font-style: italic;
+}

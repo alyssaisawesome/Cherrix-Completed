@@ -1,0 +1,36 @@
+<html>
+  <head>
+<title>Create</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="create.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="create.js"></script>
+  </head>
+  <body>
+    <center>
+      <h2>Create</h2>
+      <br>
+    <input placeholder="Write your article title here" style="width:400px;">
+    <br>
+    <br>
+    <br>
+    <h4>Choose a file for the image of your article:</h4>
+    <br>
+    <form action="/action_page.php">
+      <input type="file" id="myFile" name="filename">
+    </form>
+    <br>
+<textarea placeholder="Write your article here" style="height:300px; width:500px;"></textarea>
+<br>
+<button onclick="uhoh()">Create your article</button>
+<br>
+<br>
+<p style="font-style: italic;">Your created article is only available for you to see yourself</p>
+<br>
+<button onclick="back()">Cancel</button>
+</center>
+  </body>
+</html>
